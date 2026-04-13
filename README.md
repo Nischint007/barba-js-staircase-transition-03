@@ -191,7 +191,7 @@ In previous projects, `sync: true` was used to run animations simultaneously.
 
 
 ### 🌐 Live Demo  
-(Add your live demo link here)
+(https://barba-js-staircase-transition-03.vercel.app/)
 
 ---
 
