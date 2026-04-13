@@ -154,11 +154,16 @@ In previous projects, `sync: true` was used to run animations simultaneously.
 ```html
 <body data-barba="wrapper">
 
-  <div class="stairs">
-    <div class="stair"></div>
-    <div class="stair"></div>
-    <div class="stair"></div>
-  </div>
+    <div id="transition-layer">
+        <div class="stair"></div>
+        <div class="stair"></div>
+        <div class="stair"></div>
+        <div class="stair"></div>
+        <div class="stair"></div>
+        <div class="stair"></div>
+        <div class="stair"></div>
+        <div class="stair"></div>
+    </div>
 
   <div class="page" data-barba="container">
     <!-- Page Content -->
