@@ -189,10 +189,6 @@ In previous projects, `sync: true` was used to run animations simultaneously.
 
 ---
 
-## 🔗 Links
-
-### 🚀 GitHub + Code  
-(Add your repo link here)
 
 ### 🌐 Live Demo  
 (Add your live demo link here)
