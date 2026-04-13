@@ -172,12 +172,21 @@ In previous projects, `sync: true` was used to run animations simultaneously.
 ## 🎨 Transition CSS
 
 ```css
-.stair{
-    position: fixed;
-    inset: 0;
-    z-index: 9999;
-    background-color: #111;
-    transform: translateY(-100%);
+#transition-layer {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  overflow: hidden;
+  pointer-events: none;
+  touch-action: none;
+}
+
+.stair {
+  flex: 1;
+  height: 100vh;
+  background: #111;
+  will-change: transform;
 }
 ```
 
